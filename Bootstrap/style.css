@@ -1,0 +1,147 @@
+body {
+    transition: filter 1s ease-in-out;
+}
+
+/* Styl niestandardowych strzałek karuzeli */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%; 
+    font-size: 24px;
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.carousel-control-prev-icon {
+    left: 10px; 
+}
+
+.carousel-control-next-icon {
+    right: 10px; 
+}
+
+/* Karuzela w kształcie koła */
+.carousel-container {
+    width: 50%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    position: relative; 
+    border-radius: 50%; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+.carousel-inner {
+    width: 300%; 
+    display: flex; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.carousel-item {
+    flex: 0 0 33.33%; 
+}
+
+.carousel-caption {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+}
+body {
+    background: linear-gradient(to bottom, #ef1932, #f74949);
+}
+
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.table thead {
+    background-color: #343a40; 
+    color: white; 
+}
+
+
+.table th {
+    padding: 12px;
+    text-align: left;
+}
+
+
+.table td, .table th {
+    border: 1px solid #dee2e6; 
+    padding: 8px;
+}
+
+
+.table tbody tr:hover {
+    background-color: #f8f9fa; 
+}
+
+
+.table tbody td:last-child {
+    font-style: italic;
+    color: #02a322; 
+}
+
+
+#sekcja4 {
+    background-color: #f0f0f0; /* Kolor tła */
+    padding: 40px 0;
+}
+
+.card {
+    border: none; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s; 
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.02); 
+}
+
+.card-title {
+    font-size: 24px; 
+}
+
+.card-text {
+    font-size: 16px; 
+}
+
+.text-info {
+    color: #17a2b8; 
+}
+
+.container {
+    max-width: 800px; 
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; 
+}
+
+#startProgress {
+    background-color: green;
+    color: white; 
+    border-color: green; 
+}
+
+
+#startProgress:hover {
+    background-color: darkgreen; 
+    border-color: darkgreen; 
+}
+    
